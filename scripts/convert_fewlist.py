@@ -15,7 +15,6 @@ src_folder = 'data/vocsplit'
 
 print('===> Converting few-shot name lists.. ')
 for name_list in sorted(os.listdir(src_folder)):
-    continue
     print('  | On ' + name_list)
     # Read from src
     with open(path.join(src_folder, name_list), 'r') as f:
