@@ -32,8 +32,8 @@ learnetcfg    = parse_cfg(sys.argv[3])
 weightfile    = sys.argv[4]
 
 data_options  = read_data_cfg(datacfg)
-print(data_options)
-sys.exit(0)
+#print(data_options)
+#sys.exit(0)
 net_options   = darknetcfg[0]
 meta_options  = learnetcfg[0]
 
