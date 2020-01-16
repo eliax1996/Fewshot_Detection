@@ -294,9 +294,6 @@ class MetaDataset(Dataset):
             ensemble=False,
             with_ids=False):
 
-        print(metafiles)
-        sys.exit(0)
-
         # Backup labeled image paths (for meta-model)
         if train:
             self.classes = cfg.base_classes

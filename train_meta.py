@@ -326,4 +326,4 @@ if evaluate:
 else:
     for epoch in range(init_epoch, max_epochs):
         train(epoch)
-        # test(epoch)
+        test(epoch)
