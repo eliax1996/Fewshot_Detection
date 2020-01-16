@@ -6,8 +6,7 @@ if len(sys.argv) != 4:
     exit()
 
 import time
-import pkg_resources
-pkg_resources.require("torch==0.3.1")
+import pytorch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim

@@ -1,8 +1,7 @@
 from __future__ import print_function
 import torch.optim as optim
 import os
-import pkg_resources
-pkg_resources.require("torch==0.3.1")
+import pytorch
 import numpy as np
 from darknet import Darknet
 from PIL import Image

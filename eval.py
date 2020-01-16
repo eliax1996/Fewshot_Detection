@@ -6,8 +6,7 @@ if len(sys.argv) < 4:
     exit()
 
 import time
-import pkg_resources
-pkg_resources.require("torch==0.3.1")
+import pytorch
 from torchvision import datasets, transforms
 from torch.autograd import Variable
 

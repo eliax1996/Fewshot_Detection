@@ -2,8 +2,7 @@ import sys
 import os
 import time
 import math
-import pkg_resources
-pkg_resources.require("torch==0.3.1")
+import pytorch
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from torch.autograd import Variable

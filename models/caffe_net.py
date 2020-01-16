@@ -1,7 +1,6 @@
 import numpy as np
 import time
-import pkg_resources
-pkg_resources.require("torch==0.3.1")
+import pytorch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable

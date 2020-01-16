@@ -1,6 +1,5 @@
 import time
-import pkg_resources
-pkg_resources.require("torch==0.3.1")
+import pytorch
 import math
 import torch.nn as nn
 import torch.nn.functional as F

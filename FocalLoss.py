@@ -5,8 +5,7 @@
 # Written by Chao CHEN (chaochancs@gmail.com)
 # Created On: 2017-08-11
 # --------------------------------------------------------
-import pkg_resources
-pkg_resources.require("torch==0.3.1")
+import pytorch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
