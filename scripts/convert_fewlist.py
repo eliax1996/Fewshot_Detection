@@ -8,13 +8,13 @@ from os import path
 #parser.add_argument('--droot', type=str, default='/home/bykang/voc')
 #args = parser.parse_args()
 
-#args.droot = args.droot.rstrip('/')
+proj_dir = "/content/Fewshot_Detection"
+droot = proj_dir.rstrip('/')
 tgt_folder = './dataset'
 src_folder = 'data/vocsplit'
 
 print('===> Converting few-shot name lists.. ')
 for name_list in sorted(os.listdir(src_folder)):
-    print(name_list)
     continue
     print('  | On ' + name_list)
     # Read from src
@@ -22,10 +22,10 @@ for name_list in sorted(os.listdir(src_folder)):
         names = f.readlines()
     
     # Replace data root
-    names = [name.replace('/scratch/bykang/datasets', args.droot) 
+    names = [name.replace('/scratch/bykang/datasets', droot) 
              for name in names]
     
-    with open(path.join(args.droot, 'voclist', name_list), 'w') as f:
+    with open(path.join(droot, 'voclist', name_list), 'w') as f:
         f.writelines(names)
 
 print('===> Converting class to namelist dict file ...')
@@ -42,7 +42,7 @@ for fname in ['voc_traindict_full.txt',
         lines = f.readlines()
 
     # Replace data root
-    lines = [line.replace('/scratch/bykang/datasets', args.droot) 
+    lines = [line.replace('/scratch/bykang/datasets', droot) 
              for line in lines]
 
     # Rewrite linea
