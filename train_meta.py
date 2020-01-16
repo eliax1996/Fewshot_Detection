@@ -23,6 +23,7 @@ from cfg import parse_cfg, cfg
 from darknet_meta import Darknet
 from models.tiny_yolo import TinyYoloNet
 import pdb
+import sys
 
 # Training settings
 datacfg       = sys.argv[1]
@@ -31,6 +32,8 @@ learnetcfg    = parse_cfg(sys.argv[3])
 weightfile    = sys.argv[4]
 
 data_options  = read_data_cfg(datacfg)
+print(data_options)
+sys.exit(0)
 net_options   = darknetcfg[0]
 meta_options  = learnetcfg[0]
 
