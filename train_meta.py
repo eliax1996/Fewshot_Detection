@@ -76,8 +76,8 @@ iou_thresh    = 0.5
 ## MAIN
 backupdir = cfg.backup
 print('logging to ' + backupdir)
-if not os.path.exists(backupdir):
-    os.mkdir(backupdir)
+#if not os.path.exists(backupdir):
+#    os.mkdir(backupdir)
 
 torch.manual_seed(seed)
 if use_cuda:
