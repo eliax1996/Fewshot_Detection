@@ -5,7 +5,7 @@
 # Written by Chao CHEN (chaochancs@gmail.com)
 # Created On: 2017-08-11
 # --------------------------------------------------------
-import pytorch
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable

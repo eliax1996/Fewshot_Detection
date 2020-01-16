@@ -1,6 +1,6 @@
 from darknet import Darknet
 import dataset
-import pytorch
+import torch
 from torch.autograd import Variable
 from torchvision import datasets, transforms
 from utils import *

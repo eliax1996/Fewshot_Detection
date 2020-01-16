@@ -1,5 +1,5 @@
 import os
-import pytorch
+import torch
 from torch.utils.ffi import create_extension
 
 

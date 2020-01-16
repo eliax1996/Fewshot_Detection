@@ -2,7 +2,7 @@ import sys
 import os
 import time
 import math
-import pytorch
+import torch
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from torch.autograd import Variable

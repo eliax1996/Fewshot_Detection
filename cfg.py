@@ -1,4 +1,4 @@
-import pytorch
+import torch
 from utils import convert2cpu
 import numpy as np
 from easydict import EasyDict as edict

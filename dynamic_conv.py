@@ -1,5 +1,5 @@
 import math
-import pytorch
+import torch
 import torch.nn as nn
 from torch.nn.parameter import Parameter
 import torch.nn.functional as F

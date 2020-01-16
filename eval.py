@@ -6,7 +6,7 @@ if len(sys.argv) < 4:
     exit()
 
 import time
-import pytorch
+import torch
 from torchvision import datasets, transforms
 from torch.autograd import Variable
 

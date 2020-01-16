@@ -1,7 +1,7 @@
 from __future__ import print_function
 import torch.optim as optim
 import os
-import pytorch
+import torch
 import numpy as np
 from darknet import Darknet
 from PIL import Image
