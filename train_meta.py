@@ -76,8 +76,6 @@ iou_thresh    = 0.5
 ## MAIN
 backupdir = cfg.backup
 print('logging to ' + backupdir)
-print(backupdir)
-sys.exit(0)
 if not os.path.exists(backupdir):
     os.mkdir(backupdir)
 
