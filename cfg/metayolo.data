@@ -6,9 +6,9 @@ rand = 0
 novel = /content/Fewshot_Detection/data/voc_novels.txt
 splits
 novelid = 0
-scale = 1
+# scale = 0
 meta = data/voc_traindict_full.txt
-train = $DATA_ROOT/voc_train.txt
-valid = $DATA_ROOT/2007_test.txt
+train = /content/dataset/voc_train.txt
+valid = /content/dataset/2007_test.txt
 backup = backup/metayolo
 gpus=1,2,3,4
