@@ -9,7 +9,7 @@ from os import path
 #args = parser.parse_args()
 
 proj_dir = "/content/Fewshot_Detection"
-droot = proj_dir.rstrip('/')
+droot = './dataset'
 tgt_folder = './dataset'
 src_folder = 'data/vocsplit'
 
