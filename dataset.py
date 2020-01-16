@@ -13,6 +13,7 @@ from image import *
 from cfg import cfg
 from collections import defaultdict
 import pdb
+import sys
 
 def topath(p):
     return p.replace('scratch', 'tmp_scratch/basilisk')
@@ -292,6 +293,9 @@ class MetaDataset(Dataset):
             num_workers=4,
             ensemble=False,
             with_ids=False):
+
+        print(metafiles)
+        sys.exit(0)
 
         # Backup labeled image paths (for meta-model)
         if train:
