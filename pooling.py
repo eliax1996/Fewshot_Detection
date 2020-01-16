@@ -1,4 +1,5 @@
-import torch
+import pkg_resources
+pkg_resources.require("torch==0.3.1")
 import numpy as np
 from torch.nn.modules.module import Module
 from torch.nn.modules.utils import _single, _pair, _triple

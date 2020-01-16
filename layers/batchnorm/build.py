@@ -1,5 +1,6 @@
 import os
-import torch
+import pkg_resources
+pkg_resources.require("torch==0.3.1")
 from torch.utils.ffi import create_extension
 
 

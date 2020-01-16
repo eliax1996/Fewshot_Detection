@@ -1,6 +1,7 @@
 from darknet import Darknet
 import dataset
-import torch
+import pkg_resources
+pkg_resources.require("torch==0.3.1")
 from torch.autograd import Variable
 from torchvision import datasets, transforms
 from utils import *

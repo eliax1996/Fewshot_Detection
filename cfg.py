@@ -1,4 +1,5 @@
-import torch
+import pkg_resources
+pkg_resources.require("torch==0.3.1")
 from utils import convert2cpu
 import numpy as np
 from easydict import EasyDict as edict

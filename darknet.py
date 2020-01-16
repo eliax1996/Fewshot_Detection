@@ -1,4 +1,5 @@
-import torch
+import pkg_resources
+pkg_resources.require("torch==0.3.1")
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np

@@ -3,7 +3,8 @@
 
 import os
 import random
-import torch
+import pkg_resources
+pkg_resources.require("torch==0.3.1")
 import numpy as np
 from torch.utils.data import Dataset
 from torchvision import transforms
